@@ -66,7 +66,10 @@ class _BottomNaviagtionBarPage extends State<BottomNaviagtionBarPage> {
                  ),
                  floatingActionButton: FloatingActionButton(
                   child: Icon(Icons.add),
-                  onPressed: (){}
+                  onPressed: (){
+                     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>MyKeyboradOption()));
+                    
+                  }
                  ),
                  floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
                  
